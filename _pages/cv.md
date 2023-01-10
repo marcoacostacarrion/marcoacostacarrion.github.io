@@ -15,7 +15,7 @@ Education
 ======
 * Ph.D. Economics, Indiana University (expected 2025)
 * M.S. Quantitative Methods in Social Sciences, 2015
-* M.P.A Master Public Administration, 2015
+* M.P.A Master of Public Administration, 2015
 * B.S. Economics, 2009
 
 
