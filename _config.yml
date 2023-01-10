@@ -57,7 +57,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username               : @MarksAnto
 facebook:
   username               :
   app_id                 :
@@ -83,7 +83,7 @@ author:
   name             : "Marco A Acosta"
   avatar           : "ProfilePicture.jpg"
   bio              : "PhD student at Indiana University"
-  location         : "Location"
+  location         : "Bloomington, IN"
   employer         :
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "http://yourfullgooglescholarurl.com"
@@ -96,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "macostac"
+  github           : "marcoacost"
   google_plus      :
   keybase          :
   instagram        :
