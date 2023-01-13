@@ -20,6 +20,6 @@ I am a third-year Ph.D. student in Economics at Indiana University. My research 
 CONTACT INFORMATION
 ======
 
-Email: macostac.edu
+Email: macostac@iu.edu
 
 Address: Department of Economics, Indiana University Bloomington, Wylie Hall 204, Bloomington, IN 47405
