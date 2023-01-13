@@ -21,4 +21,5 @@ CONTACT INFORMATION
 ======
 
 Email: macostac.edu
+
 Address: Department of Economics, Indiana University Bloomington, Wylie Hall 204, Bloomington, IN 47405
