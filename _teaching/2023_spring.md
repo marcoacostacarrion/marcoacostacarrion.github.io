@@ -1,5 +1,5 @@
 ---
-title: "Fundamentals of Economics for Business I"
+title: "Fundamentals of Economics for Business I, Spring 2023"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2023_spring
