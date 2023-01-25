@@ -8,8 +8,10 @@ date: 2023-01-01
 location: "Bloomington, IN"
 ---
 
+The final goal of this class is that you learn basic economic science. I will attempt to do this by preparing myself to teach you the concepts in a friendly manner, as well as to learn the best pedagogical techniques to do so.
 
 Course Objective:
+==
 
 1. Identify and describe the basic terms, fields, assumptions, tools, models, and methods of economics. Examine how using economic models use data to evaluate alternative social policies and issues.
 2. Describe, illustrate, and apply the basic economic terms to model the basic economic problem and its related applications.
