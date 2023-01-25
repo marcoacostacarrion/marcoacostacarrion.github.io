@@ -8,4 +8,4 @@ date: 2018-04-18
 location: "Mexico City, Mexico"
 ---
 
-Exposure of the paper "Anchoring of Inflation Expectations in Mexico" in the 5th Congress of Economics and Public Policies on Mexico.
+Presentation of the paper ["Anchoring of Inflation Expectations in Mexico"](https://marcoacost.github.io/publication/Anchoring-of-Inflation-Expectations-in-Mexico) in the 5th Congress of Economics and Public Policies on Mexico.
