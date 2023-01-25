@@ -10,7 +10,6 @@ location: "Bloomington, IN"
 
 
 Course Objective:
-===============
 
 1. Identify and describe the basic terms, fields, assumptions, tools, models, and methods of economics. Examine how using economic models use data to evaluate alternative social policies and issues.
 2. Describe, illustrate, and apply the basic economic terms to model the basic economic problem and its related applications.
