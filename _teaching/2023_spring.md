@@ -29,6 +29,9 @@ Course Objective:
 [Module 3a](https://github.com/marcoacost/marcoacost.github.io/raw/master/files/Spring_2023/M3a-MAAC.pdf)
 [Module 3b](https://github.com/marcoacost/marcoacost.github.io/raw/master/files/Spring_2023/M3b-MAAC.pdf)
 
+[Module 4a](https://github.com/marcoacost/marcoacost.github.io/raw/master/files/Spring_2023/M4a-MAAC.pdf)
+[Module 4b](https://github.com/marcoacost/marcoacost.github.io/raw/master/files/Spring_2023/M4b-MAAC.pdf)
+
 
 
 
