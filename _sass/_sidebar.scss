@@ -69,13 +69,16 @@
    Author profile and links
    ========================================================================== */
 
-.author__avatar {
-  display: table-cell;
-  vertical-align: top;
-  width: 36px;
-  // set width only, for non-square avatars
-  // height: 36px;
 
+.author__avatar {
+  /* Other properties clipped for clarity */
+  img {
+    max-width: 175px;     /* The size of the avatar in pixels */
+    border-radius: 50%;   /* The boarder radius as a percentage, 0% will render a square */
+  }
+}
+
+   
   @include breakpoint($large) {
     display: block;
     width: auto;
