@@ -18,6 +18,14 @@
 @import "reset";
 @import "base";
 
+@media (min-width: 80em)
+.sidebar__right {
+    width: 300px;
+    margin-right: -300px;
+    float: right;
+    position: sticky;
+}
+
 @import "utilities";
 @import "animations";
 @import "tables";
