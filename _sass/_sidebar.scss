@@ -58,7 +58,7 @@
    Author profile and links
    ========================================================================== */
 
-
+@media {min-width: 80em;
 .author__avatar {
   display: table-cell;
   vertical-align: top;
@@ -82,7 +82,7 @@
     }
   }
 }
-
+}
 
 
 
