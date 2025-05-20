@@ -61,11 +61,11 @@
 .author__avatar {
   display: table-cell;
   vertical-align: top;
-
-     img {
+ }
+ .author__avatar img {
     max-width: 175px;     /* The size of the avatar in pixels */
     border-radius: 50%;   /* The boarder radius as a percentage, 0% will render a square */
-  }
+ 
 }
 
 
