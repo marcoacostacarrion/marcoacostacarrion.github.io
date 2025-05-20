@@ -65,9 +65,10 @@
   height: 72px;
 }
 
-.author__avatar img {
-  max-width: 175px;
-}
+  .author__avatar img {
+    width: 300px;   /* Even bigger on large screens */
+    height: 500px;
+  }
 
 @media (min-width: 80em) {
   .author__avatar {
