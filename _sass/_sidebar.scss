@@ -61,12 +61,27 @@
 .author__avatar {
   display: table-cell;
   vertical-align: top;
- }
- .author__avatar img {
-    max-width: 175px;     /* The size of the avatar in pixels */
-    border-radius: 50%;   /* The boarder radius as a percentage, 0% will render a square */
- 
+  width: 72px;
+  // set width only, for non-square avatars
+  // height: 36px;
+
+  @include breakpoint($large) {
+    display: block;
+    width: auto;
+    height: auto;
+  }
+
+  img {
+    max-width: 175px;
+    border-radius: 100%;
+
+    @include breakpoint($large) {
+      padding: 5px;
+      border: 1px solid var(--global-border-color);
+    }
+  }
 }
+
 
 
 }
