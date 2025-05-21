@@ -64,9 +64,9 @@
 }
 
 .author__avatar img {
-  width: 400px !important;   /* force image width */
+  width: 500px !important;   /* force image width */
   height: auto !important;
-  border-radius: 0% !important;  /* or 50% if you want circular */
+  border-radius: 50% !important;  /* or 50% if you want circular */
   padding: 5px !important;
   border: 1px solid #ccc !important;
 }
