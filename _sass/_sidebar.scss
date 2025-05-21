@@ -58,30 +58,20 @@
    Author profile and links
    ========================================================================== */
 
+
+
 .author__avatar {
-  display: table-cell;
-  vertical-align: top;
-  width: 100px;
-  // set width only, for non-square avatars
-  height: 120px;
-
-  @include breakpoint($large) {
-    display: block;
-    width: auto;
-    height: auto;
-  }
-
-  img {
-    max-width: 275px;
-
-    @include breakpoint($large) {
-      padding: 5px;
-      border: 1px solid var(--global-border-color);
-    }
-  }
+  width: auto !important;
+  height: auto !important;
 }
 
-
+.author__avatar img {
+  width: 175px !important;   /* force image width */
+  height: auto !important;
+  border-radius: 0% !important;  /* or 50% if you want circular */
+  padding: 5px !important;
+  border: 1px solid #ccc !important;
+}
 
 .author__content {
   display: table-cell;
