@@ -1,5 +1,5 @@
 ---
-title: "From Persistence to Performance: The Effects of Elite"
+title: "From Persistence to Performance The Effects of Elite"
 High Schools on Retaking and Testing'
 collection: publications
 type: work
