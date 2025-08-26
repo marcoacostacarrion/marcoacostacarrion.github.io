@@ -1,0 +1,60 @@
+{% include base_path %}
+
+{% if post.header.teaser %}
+  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+  {% assign teaser = site.teaser %}
+{% endif %}
+
+{% if post.id %}
+  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+  {% assign title = post.title %}
+{% endif %}
+
+<div class="{{ include.type | default: "list" }}__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    {% if include.type == "grid" and teaser %}
+      <div class="archive__item-teaser">
+        <img src=
+          {% if teaser contains "://" %}
+            "{{ teaser }}"
+          {% else %}
+            "{{ teaser | prepend: "/images/" | prepend: base_path }}"
+          {% endif %}
+          alt="">
+      </div>
+    {% endif %}
+
+    <!-- Title: plain text, no link -->
+    <h2 class="archive__item-title" itemprop="headline">
+      {{ title }} <span class="badge">Work in progress</span>
+    </h2>
+
+    {% if post.read_time %}
+      <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
+    {% endif %}
+
+    {%- comment -%} Omit venue / "Published in ..." for work items {%- endcomment -%}
+
+    {% if post.excerpt and site.read_more != 'enabled' %}
+      <p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify }}</p>
+    {% elsif post.excerpt and site.read_more == 'enabled' %}
+      <p class="archive__item-excerpt" itemprop="description"><p>{{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}<strong><a href="{{ base_path }}{{ post.url }}" rel="permalink"> Read more</a></strong></p></p>
+    {% endif %}
+
+    {%- comment -%}
+      Optional Slides button.
+      Supports any of: slides, slidesurl, or url_slides in your front matter.
+      Title has no link; no paper/PDF link is rendered here.
+    {%- endcomment -%}
+    {% assign slides_url = post.slides | default: post.slidesurl | default: post.url_slides %}
+    {% if slides_url %}
+      <p><a class="btn btn--primary" href="{{ slides_url | relative_url }}">Slides</a></p>
+    {% endif %}
+
+    {% if post.citation %}
+      <p>Recommended citation: {{ post.citation }}</p>
+    {% endif %}
+  </article>
+</div>
