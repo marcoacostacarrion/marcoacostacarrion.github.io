@@ -1,0 +1,22 @@
+<article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+  <h2 class="archive__item-title no_toc" itemprop="headline">
+    <a href="{{ include.post.link | default: include.post.paperurl | default: include.post.url | relative_url }}">
+      {{ include.post.title }}
+    </a>
+    <span class="badge">JMP</span>
+  </h2>
+
+  {% if include.post.excerpt %}
+  <p class="archive__item-excerpt" itemprop="description">
+    {{ include.post.excerpt }}
+  </p>
+  {% endif %}
+
+  {% if include.post.paperurl or include.post.link %}
+  <p>
+    <a class="btn btn--primary" href="{{ include.post.paperurl | default: include.post.link | relative_url }}">
+      Download PDF
+    </a>
+  </p>
+  {% endif %}
+</article>
