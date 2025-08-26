@@ -5,18 +5,18 @@ layout: archive
 author_profile: true
 ---
 
-## Publications
+## Work in Progress
 {% for post in site.publications %}
-  {% if post.type == "publications" %}
+  {% if post.type == "work" %}
     {% include archive-single.html %}
   {% endif %}
 {% endfor %}
 
 ---
 
-## Work in Progress
+## Publications
 {% for post in site.publications %}
-  {% if post.type == "work" %}
+  {% if post.type == "publications" %}
     {% include archive-single.html %}
   {% endif %}
 {% endfor %}
