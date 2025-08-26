@@ -6,10 +6,9 @@ author_profile: true
 ---
 
 ## JMP
-{% for post in site.publications %}
-  {% if post.type == "JMP" %}
-    {% include archive-single.html %}
-  {% endif %}
+{% assign jmps = site.publications | where: "type", "JMP" | sort: "date" | reverse %}
+{% for post in jmps %}
+  {% include archive-single-jmp.html post=post %}
 {% endfor %}
 
 ---
