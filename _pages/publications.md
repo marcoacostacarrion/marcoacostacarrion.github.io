@@ -22,8 +22,7 @@ author_profile: true
 ---
 
 ## Work in Progress
-{% for post in site.publications %}
-  {% if post.type == "work" %}
-    {% include archive-single.html %}
-  {% endif %}
+{% assign works = site.publications | where: "type", "work" | sort: "date" | reverse %}
+{% for post in works %}
+  {% include archive-single-work.html post=post %}
 {% endfor %}
