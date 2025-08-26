@@ -9,7 +9,7 @@ redirect_from:
 
 WELCOME
 ======
-I am a third-year Ph.D. student in Economics at Indiana University. My research interests are in education with an approach on industrial organization. Prior to graduate school, I worked in the Central Bank of Mexico in the System of Payments and Economic Research Directorate where I specialized in inflation. 
+I am a PhD candidate in Economics at Indiana University. My research interests are in education economics and industrial organization. My research focuses on policies that impact effort, school value-added, and welfare. My Job Market Paper studies the impact of elite school eligibility on student effort in the high school centralized assignment system in the Metropolitan Area of Mexico City. Prior to graduate school, I worked at the Central Bank of Mexico, specializing in inflation and labor markets.
 
 CONTACT INFORMATION
 ======
