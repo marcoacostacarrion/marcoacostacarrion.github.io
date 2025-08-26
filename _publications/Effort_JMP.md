@@ -1,6 +1,5 @@
 ---
-title: "From Persistence to Performance The Effects of Elite"
-High Schools on Retaking and Testing'
+title: "From Persistence to Performance: The Effects of Elite High Schools on Retaking and Testing"
 collection: publications
 type: work
 permalink: https://github.com/marcoacostacarrion/marcoacostacarrion.github.io/blob/master/files/JMP_draft.pdf
