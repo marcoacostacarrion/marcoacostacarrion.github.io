@@ -7,7 +7,7 @@ author_profile: true
 
 ## Publications
 {% for post in site.publications %}
-  {% if post.type == "publication" %}
+  {% if post.type == "publications" %}
     {% include archive-single.html %}
   {% endif %}
 {% endfor %}
