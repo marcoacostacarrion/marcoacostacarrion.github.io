@@ -5,18 +5,26 @@ layout: archive
 author_profile: true
 ---
 
-## Work in Progress
+## JMP
 {% for post in site.publications %}
-  {% if post.type == "work" %}
+  {% if post.type == "JMP" %}
+    {% include archive-single.html %}
+  {% endif %}
+{% endfor %}
+
+---
+## Publications
+{% for post in site.publications %}
+  {% if post.type == "publications" %}
     {% include archive-single.html %}
   {% endif %}
 {% endfor %}
 
 ---
 
-## Publications
+## Work in Progress
 {% for post in site.publications %}
-  {% if post.type == "publications" %}
+  {% if post.type == "work" %}
     {% include archive-single.html %}
   {% endif %}
 {% endfor %}
