@@ -1,5 +1,4 @@
-Publications
-=======
+
 ---
 title: "Machine Learning Core Inflation"
 collection: publications
