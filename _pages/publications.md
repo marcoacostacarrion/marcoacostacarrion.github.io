@@ -21,8 +21,9 @@ author_profile: true
 
 ---
 
-## Work in Progress
-{% assign works = site.publications | where: "type", "work" | sort: "date" | reverse %}
-{% for post in works %}
-  {% include archive-single-work.html post=post %}
+## Working in Papers
+{% for post in site.publications %}
+  {% if post.type == "working" %}
+    {% include archive-single.html %}
+  {% endif %}
 {% endfor %}
