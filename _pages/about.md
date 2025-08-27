@@ -1,4 +1,3 @@
-
 ---
 layout: splash
 title: "Marco A Acosta"
