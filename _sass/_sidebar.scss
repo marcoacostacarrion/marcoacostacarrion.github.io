@@ -60,12 +60,11 @@
 
 /* Wrapper controls size + circle */
 .author__avatar {
-  width: clamp(88px, 24vw, 160px);  /* small on phones, up to 160px on desktop */
-  height: clamp(88px, 24vw, 160px);
+  width: auto !important;
+  height: auto !important;
   border-radius: 50%;
   overflow: hidden;
   margin: 0 auto;
-  border: 1px solid #ccc;   /* optional border */
   padding: 4px;             /* optional padding */
   box-sizing: border-box;
 }
