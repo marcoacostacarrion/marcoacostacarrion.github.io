@@ -58,13 +58,14 @@
 
 
 .author__avatar {
-  width: 260px;          /* pick a fixed size, or use clamp() */
-  height: 260px;
+  width: clamp(88px, 24vw, 160px);  /* scales with screen */
+  height: clamp(88px, 24vw, 160px);
   border-radius: 50%;
   overflow: hidden;
   margin: 0 auto;
+  padding: 4px;
+  box-sizing: border-box;
 }
-
 
 .author__avatar img {
   width: 100%;
