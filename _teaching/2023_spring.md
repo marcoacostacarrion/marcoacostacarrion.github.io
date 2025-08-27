@@ -7,7 +7,9 @@ venue: "Indiana University, Department of Economics, Fall 2021, Spring 2022, Fal
 location: "Bloomington, IN"
 ---
 
-==
+The aim of this course is to introduce students to the fundamental concepts, models, and methods of economics, and to apply them to understand markets, decision-making, and the role of government in addressing market outcomes
+
+
 Course Objective:
 ==
 
