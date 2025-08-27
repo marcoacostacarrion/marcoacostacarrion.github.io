@@ -7,11 +7,6 @@ excerpt: "PhD candidate in Economics at Indiana University"
 header:
 overlay_image: /images/ProfileGreek2.jpg
   overlay_filter: 0.25     # darkens the image so text is readable (0–1)
-  actions:
-    - label: "Download CV"
-      url: /files/CV.pdf
-    - label: "Job Market Paper"
-      url: /files/JMP_draft.pdf
 ---
 
 
