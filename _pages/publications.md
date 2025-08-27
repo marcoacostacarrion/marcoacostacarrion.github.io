@@ -1,9 +1,15 @@
 ---
-title: ""
-permalink: /publications/
-layout: archive
+layout: splash
+title: "Marco A Acosta"
+permalink: /
 author_profile: true
+header:
+  overlay_image: /images/ProfilePicture2.jpg
+  overlay_filter: 0.25 # darkens the image so text is readable (0–1)
 ---
+
+
+
 
 ## JMP
 {% assign jmps = site.publications | where: "type", "JMP" | sort: "date" | reverse %}
@@ -27,6 +33,11 @@ author_profile: true
   {% include archive-single-work.html post=post %}
 {% endfor %}
 
+
+# title: ""
+# permalink: /publications/
+# layout: archive
+# author_profile: true
 
 
 
