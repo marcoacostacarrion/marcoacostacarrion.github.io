@@ -2,6 +2,8 @@
 layout: splash
 permalink: /
 title: "Welcome"
+header:
+  overlay_image: /images/ProfileGreek.jpg
 author_profile: true
 redirect_from: 
   - /about/
