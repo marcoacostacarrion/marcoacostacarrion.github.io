@@ -1,7 +1,7 @@
 ---
 layout: splash
 title: "Marco A Acosta"
-permalink: /publications/
+permalink: /cv/
 author_profile: true
 header:
   overlay_image: /images/ProfilePicture2.jpg
