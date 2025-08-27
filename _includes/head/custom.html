@@ -1,52 +1,38 @@
-<style>
-/* --- Header layout: big name, black line, then menu --- */
-.masthead {
-  position: sticky; top: 0; z-index: 1000;
-  background: #ffffff;
-  box-shadow: 0 1px 0 rgba(0,0,0,.06);
-}
+{% include base_path %}
 
-/* Stack the title above the menu */
-.greedy-nav {
-  display: flex;
-  flex-wrap: wrap;              /* allow wrapping to new line */
-  align-items: flex-start;
-  padding-top: .25rem;
-}
+<!-- start custom head snippets -->
 
-/* Big name (site title) on its own row with a black divider */
-.greedy-nav .site-title {
-  flex: 1 0 100%;               /* full width row */
-  font-size: clamp(28px, 3.2vw, 40px);
-  font-weight: 800;
-  letter-spacing: .2px;
-  line-height: 1.15;
-  padding: .75rem 0 .5rem;
-  margin: 0;
-  border-bottom: 4px solid #000;/* the solid black line */
-  color: #111827;
-  text-decoration: none;
-}
+<link rel="apple-touch-icon" sizes="57x57" href="{{ base_path }}/images/apple-touch-icon-57x57.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="60x60" href="{{ base_path }}/images/apple-touch-icon-60x60.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="72x72" href="{{ base_path }}/images/apple-touch-icon-72x72.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="76x76" href="{{ base_path }}/images/apple-touch-icon-76x76.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="114x114" href="{{ base_path }}/images/apple-touch-icon-114x114.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="120x120" href="{{ base_path }}/images/apple-touch-icon-120x120.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="144x144" href="{{ base_path }}/images/apple-touch-icon-144x144.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="152x152" href="{{ base_path }}/images/apple-touch-icon-152x152.png?v=M44lzPylqQ">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ base_path }}/images/apple-touch-icon-180x180.png?v=M44lzPylqQ">
+<link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-32x32.png?v=M44lzPylqQ" sizes="32x32">
+<link rel="icon" type="image/png" href="{{ base_path }}/images/android-chrome-192x192.png?v=M44lzPylqQ" sizes="192x192">
+<link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-96x96.png?v=M44lzPylqQ" sizes="96x96">
+<link rel="icon" type="image/png" href="{{ base_path }}/images/favicon-16x16.png?v=M44lzPylqQ" sizes="16x16">
+<link rel="manifest" href="{{ base_path }}/images/manifest.json?v=M44lzPylqQ">
+<link rel="mask-icon" href="{{ base_path }}/images/safari-pinned-tab.svg?v=M44lzPylqQ" color="#000000">
+<link rel="shortcut icon" href="/images/favicon.ico?v=M44lzPylqQ">
+<meta name="msapplication-TileColor" content="#000000">
+<meta name="msapplication-TileImage" content="{{ base_path }}/images/mstile-144x144.png?v=M44lzPylqQ">
+<meta name="msapplication-config" content="{{ base_path }}/images/browserconfig.xml?v=M44lzPylqQ">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="{{ base_path }}/assets/css/academicons.css"/>
 
-/* Menu row sits under the black line */
-.greedy-nav .visible-links {
-  width: 100%;
-  display: flex;
-  gap: 1rem;
-  padding-top: .55rem;
-}
+<script type="text/x-mathjax-config"> MathJax.Hub.Config({ TeX: { equationNumbers: { autoNumber: "all" } } }); </script>
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      processEscapes: true
+    }
+  });
+</script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML' async></script>
 
-/* Subtle hover underline for menu items */
-.greedy-nav .visible-links a {
-  position: relative;
-  text-decoration: none;
-  border-bottom: 2px solid transparent;
-  padding-bottom: .15rem;
-}
-.greedy-nav .visible-links a:hover {
-  border-bottom-color: #000;
-}
-
-/* Keep the toggle aligned on mobile */
-.greedy-nav__toggle { margin-left: auto; }
-</style>
+<!-- end custom head snippets -->
