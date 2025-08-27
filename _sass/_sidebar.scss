@@ -57,10 +57,12 @@
    ========================================================================== */
 
 
-
 .author__avatar {
-  width: auto !important;
-  height: auto !important;
+  width: 260px;          /* pick a fixed size, or use clamp() */
+  height: 260px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
 }
 
 
