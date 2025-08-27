@@ -2,7 +2,7 @@
 title: ""
 permalink: /publications/
 layout: archive
-#author_profile: true
+author_profile: true
 ---
 
 ## JMP
