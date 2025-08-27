@@ -17,7 +17,12 @@ header:
   {% include archive-single-jmp.html post=post %}
 {% endfor %}
 
----
+## Working Papers
+{% assign works = site.publications | where: "type", "work" | sort: "date" | reverse %}
+{% for post in works %}
+  {% include archive-single-work.html post=post %}
+{% endfor %}
+
 ## Publications
 {% for post in site.publications %}
   {% if post.type == "publications" %}
@@ -25,13 +30,7 @@ header:
   {% endif %}
 {% endfor %}
 
----
 
-## Working Papers
-{% assign works = site.publications | where: "type", "work" | sort: "date" | reverse %}
-{% for post in works %}
-  {% include archive-single-work.html post=post %}
-{% endfor %}
 
 ## Work in Progress
 
