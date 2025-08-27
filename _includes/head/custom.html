@@ -1,43 +1,52 @@
 <style>
-/* --- Masthead polish --- */
+/* --- Header layout: big name, black line, then menu --- */
 .masthead {
   position: sticky; top: 0; z-index: 1000;
-  background: rgba(255,255,255,.92);
-  backdrop-filter: saturate(160%) blur(6px);
+  background: #ffffff;
   box-shadow: 0 1px 0 rgba(0,0,0,.06);
 }
 
-/* Color bar under the menu */
-.masthead{ position: sticky; } /* ensure positioning */
-.masthead::after{
-  content:""; position:absolute; left:0; right:0; bottom:-1px; height:4px;
-  background: linear-gradient(90deg,
-    #9d174d, #f97316, #eab308, #22c55e, #06b6d4, #6366f1, #a855f7);
+/* Stack the title above the menu */
+.greedy-nav {
+  display: flex;
+  flex-wrap: wrap;              /* allow wrapping to new line */
+  align-items: flex-start;
+  padding-top: .25rem;
 }
 
-/* Menu link hover/active underline */
-.greedy-nav a {
-  position: relative; text-decoration: none;
+/* Big name (site title) on its own row with a black divider */
+.greedy-nav .site-title {
+  flex: 1 0 100%;               /* full width row */
+  font-size: clamp(28px, 3.2vw, 40px);
+  font-weight: 800;
+  letter-spacing: .2px;
+  line-height: 1.15;
+  padding: .75rem 0 .5rem;
+  margin: 0;
+  border-bottom: 4px solid #000;/* the solid black line */
+  color: #111827;
+  text-decoration: none;
 }
-.greedy-nav a::after{
-  content:""; position:absolute; left:0; right:0; bottom:-6px; height:2px;
-  background: currentColor; transform: scaleX(0); transform-origin:left;
-  transition: transform .18s ease-in-out;
+
+/* Menu row sits under the black line */
+.greedy-nav .visible-links {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  padding-top: .55rem;
 }
-.greedy-nav a:hover::after,
-.greedy-nav .active > a::after{ transform: scaleX(1); }
 
-/* Slightly bolder active link */
-.greedy-nav .active > a{ font-weight:600; }
-
-/* Optional: make a JMP nav item look like a button.
-   Add a "JMP" item in _data/navigation.yml that links to /files/JMP_draft.pdf */
-.greedy-nav a[href$="JMP_draft.pdf"]{
-  padding:.35rem .85rem; border-radius:9999px; margin-left:.6rem;
-  background:#111827; color:#fff !important; border:1px solid #111827;
+/* Subtle hover underline for menu items */
+.greedy-nav .visible-links a {
+  position: relative;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  padding-bottom: .15rem;
 }
-.greedy-nav a[href$="JMP_draft.pdf"]:hover{ filter:brightness(1.06); }
+.greedy-nav .visible-links a:hover {
+  border-bottom-color: #000;
+}
 
-/* Optional: subtle shadow under the header for depth */
-.site-header{ box-shadow: 0 6px 20px rgba(0,0,0,.04); }
+/* Keep the toggle aligned on mobile */
+.greedy-nav__toggle { margin-left: auto; }
 </style>
