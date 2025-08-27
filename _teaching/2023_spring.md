@@ -20,7 +20,8 @@ Course Objective:
 5. Examine, measure, and illustrate the economic problem of the firm and its cost curves. Define, measure, and solve the profit maximizing output decision of the perfectly competitive firm. Compare the similarities and differences between monopoly and perfectly competitive and oligopoly firms and markets.
 
 
-
+Selected Slides
+==
 
 [Module 2a](https://github.com/marcoacost/marcoacost.github.io/raw/master/files/Spring_2023/M2a-MAAC.pdf)
 [Module 2b](https://github.com/marcoacost/marcoacost.github.io/raw/master/files/Spring_2023/M2b-MAAC.pdf)
