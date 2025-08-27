@@ -1,6 +1,6 @@
 ---
 layout: splash
-title: "Marco A Acosta"
+title: "Marco Acosta"
 permalink: /
 author_profile: true
 header:
