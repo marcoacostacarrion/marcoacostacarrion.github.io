@@ -15,7 +15,7 @@ header:
      style="float:right; width:240px; max-width:35%; margin: 0 0 1rem 1.5rem; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,.15);"
      loading="lazy">
 
-<p>I am a PhD candidate in Economics at Indiana University. My research interests are in education economics and industrial organization. My research focuses on policies that impact effort, school value-added, and welfare. My Job Market Paper studies the impact of elite school eligibility on student effort in the high school centralized assignment system in the Metropolitan Area of Mexico City. Prior to graduate school, I worked at the Central Bank of Mexico, specializing in inflation and labor markets.</p>
+<p>I am a PhD candidate in Economics at Indiana University. I study how education policies shape effort, school value-added, and welfare, using apply microeconomics and industrial organization tools. My job market paper measures the effect of elite-school eligibility on student effort in Mexico City’s centralized assignment system. Previously, I worked at the Central Bank of Mexico on inflation and labor.</p>
 
 <div style="clear: both;"></div>
 
