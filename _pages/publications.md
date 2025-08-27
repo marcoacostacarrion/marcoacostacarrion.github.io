@@ -35,6 +35,7 @@ header:
 ## Work in Progress
 
 - **Welfare Impact from Merit Based to Lottery School Assignment: Evidence from Mexico City High School Matching Reform**
+- **Nash Equilibrium Fees and Network ATM Merges: Evidence from Agreements Formation**
 
 
 
