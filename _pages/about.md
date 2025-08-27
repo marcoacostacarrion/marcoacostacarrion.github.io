@@ -2,10 +2,11 @@
 layout: splash
 title: "Marco A Acosta"
 permalink: /
+hidden: true
 author_profile: true
 excerpt: "PhD candidate in Economics at Indiana University"
 header:
-#  overlay_image: /images/ProfileGreek2.jpg
+overlay_image: /images/ProfileGreek2.jpg
   overlay_filter: 0.25     # darkens the image so text is readable (0–1)
   actions:
     - label: "Download CV"
@@ -13,15 +14,6 @@ header:
     - label: "Job Market Paper"
       url: /files/JMP_draft.pdf
 ---
-
-#---
-#permalink: /
-#title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
-#author_profile: true
-#redirect_from: 
-#  - /about/
-#  - /about.html
-#---
 
 
 
