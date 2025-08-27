@@ -1,11 +1,18 @@
+
 ---
+layout: splash
+title: "Marco A Acosta"
 permalink: /
-excerpt: "About me"
-title: "Welcome"
 author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
+excerpt: "PhD candidate in Economics at Indiana University"
+header:
+  overlay_image: /images/hero.jpg
+  overlay_filter: 0.25     # darkens the image so text is readable (0–1)
+  actions:
+    - label: "Download CV"
+      url: /files/CV.pdf
+    - label: "Job Market Paper"
+      url: /files/JMP_draft.pdf
 ---
 
 
