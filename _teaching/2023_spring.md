@@ -1,14 +1,12 @@
 ---
-title: "Fundamentals of Economics for Business I, Spring 2023"
+title: "Fundamentals of Economics for Business I"
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2023_spring
-venue: "Indiana University, Department of Economics"
+venue: "Indiana University, Department of Economics, Fall 2021, Spring 2022, Fall 2022, Spring 2023, Summer 2023 (online), Fall 2023, and Spring 2024"
 date: 2023-01-01
 location: "Bloomington, IN"
 ---
-
-The final goal of this class is that you learn basic economic science. I will attempt to do this by preparing myself to teach you the concepts in a friendly manner, as well as to learn the best pedagogical techniques to do so.
 
 Course Objective:
 ==
