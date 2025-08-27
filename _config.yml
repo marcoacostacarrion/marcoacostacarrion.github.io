@@ -11,7 +11,7 @@ locale                   : "en-US"
 title                    : "Home"
 masthead_title           : "Marco Acosta"   # this is the text that appears as the header title
 title_separator          : "-"
-name                     : &name "Marco A Acosta"
+name                     : &name "Marco Acosta"
 description              : &description "3rd year PhD student"
 url                      : https://marcoacostacarrion.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
