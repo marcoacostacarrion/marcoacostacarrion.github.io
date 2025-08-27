@@ -5,7 +5,7 @@ permalink: /
 author_profile: true
 excerpt: "PhD candidate in Economics at Indiana University"
 header:
-  overlay_image: /images/ProfileGreek2.jpg
+  overlay_image: /images/ProfilePicture2.jpg
   overlay_filter: 0.25 # darkens the image so text is readable (0–1)
 ---
 
