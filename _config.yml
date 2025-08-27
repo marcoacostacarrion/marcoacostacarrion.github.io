@@ -9,6 +9,7 @@
 # Site Settings
 locale                   : "en-US"
 title                    : "Marco Acosta"
+masthead_title           : "Home"
 title_separator          : "-"
 name                     : &name "Marco A Acosta"
 description              : &description "3rd year PhD student"
