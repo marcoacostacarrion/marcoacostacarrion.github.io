@@ -20,6 +20,12 @@ Course Objective:
 5. Apply consumer and producer theory, with emphasis on game theory, to understand firm strategy.
 6. Connect theoretical and empirical tools to real-world issues in markets, providing foundations for careers in consulting, finance, law, and public policy.
 
+Selected Slides
+==
+
+[IO 02](https://github.com/marcoacost/marcoacost.github.io/raw/master/files/IO_2025/IO_02_PerfectComp.pdf)
+[IO 03](https://github.com/marcoacost/marcoacost.github.io/raw/master/files/IO_2025/IO_03_Monopoly.pdf)
+
 
 
 
