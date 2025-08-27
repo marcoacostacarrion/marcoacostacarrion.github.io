@@ -2,6 +2,7 @@
 layout: splash
 title: "Marco A Acosta"
 permalink: /
+hidden: true
 author_profile: true
 excerpt: "PhD candidate in Economics at Indiana University"
 header:
