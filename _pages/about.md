@@ -22,10 +22,5 @@ I am a PhD candidate in Economics at [Indiana University](https://economics.indi
 
 ### Contact Information
 
-| | |
-|---|---|
-| **Email** | macostac@iu.edu |
-| **Address** | [Department of Economics](https://economics.indiana.edu), Indiana University Bloomington, Wylie Hall 204, Bloomington, IN 47405 |
-
-
-
+**Email**  [macostac@iu.edu](mailto:macostac@iu.edu)   
+**Address**  [Department of Economics](https://economics.indiana.edu), Indiana University Bloomington, Wylie Hall 204, Bloomington, IN 47405 |
