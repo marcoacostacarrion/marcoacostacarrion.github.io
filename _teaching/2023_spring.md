@@ -1,16 +1,16 @@
 ---
 layout: splash
-title: "Fundamentals of Economics for Business I"
+title: "Marco Acosta"
+author_profile: true
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2023_spring
 venue: "Indiana University, Department of Economics, Fall 2021, Spring 2022, Fall 2022, Spring 2023, Summer 2023 (online), Fall 2023, and Spring 2024"
 location: "Bloomington, IN"
+header:
+  overlay_image: /images/ProfilePicture2.jpg
+  overlay_filter: 0.25 # darkens the image so text is readable (0–1)
 ---
-
-
-
-
 
 
 The aim of this course is to introduce students to the fundamental concepts, models, and methods of economics, and to apply them to understand markets, decision-making, and the role of government in addressing market outcomes
