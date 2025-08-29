@@ -1,7 +1,7 @@
 ---
 layout: splash
 title: "Marco Acosta"
-author_profile: true
+author_profile: false
 collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2023_spring
