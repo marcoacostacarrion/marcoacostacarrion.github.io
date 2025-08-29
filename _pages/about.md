@@ -15,7 +15,7 @@ header:
      style="float:right; width:240px; max-width:35%; margin: 0 0 1rem 1.5rem; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,.15);"
      loading="lazy">
 
-<p>I am a PhD candidate in Economics at Indiana University. I study how education policies shape effort, school value-added, and welfare, using apply microeconomics and industrial organization tools. My job market paper measures the effect of elite-school eligibility on student effort in Mexico City’s centralized assignment system. Previously, I worked at the Central Bank of Mexico on inflation and labor.</p>
+<p>I am a PhD candidate in Economics at [Indiana University](https://economics.indiana.edu). I study how education policies shape effort, school value-added, and welfare, using apply microeconomics and industrial organization tools. My job market paper measures the effect of elite-school eligibility on student effort in Mexico City’s centralized assignment system. Previously, I worked at the [Central Bank of Mexico](https://www.banxico.org.mx) on inflation and labor markets analysis.</p>
 
 <div style="clear: both;"></div>
 
@@ -25,5 +25,5 @@ CONTACT INFORMATION
 
 Email: macostac@iu.edu
 
-Address: Department of Economics, Indiana University Bloomington, Wylie Hall 204, Bloomington, IN 47405
+Address: [Department of Economics](https://economics.indiana.edu), Indiana University Bloomington, Wylie Hall 204, Bloomington, IN 47405
 
