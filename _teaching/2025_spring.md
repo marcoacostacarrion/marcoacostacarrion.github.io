@@ -1,14 +1,18 @@
 ---
+layout: splash
 title: "Economics of Industry"
+author_profile: true
 collection: teaching
 type: "Undergraduate course"
+excerpt: "The aim of this course is to analyze firm behavior in imperfectly competitive markets, using economic theory and game theory to understand strategies, market outcomes, and public policy responses."
 permalink: /teaching/2025_spring
 venue: "Indiana University, Department of Economics"
 date: 2025/01/01
 location: "Bloomington, IN"
+header:
+  overlay_image: /images/ProfilePicture2.jpg
+  overlay_filter: 0.25 # darkens the image so text is readable (0–1)
 ---
-
-The aim of this course is to analyze firm behavior in imperfectly competitive markets, using economic theory and game theory to understand strategies, market outcomes, and public policy responses.
 
 Course Objective:
 ==
