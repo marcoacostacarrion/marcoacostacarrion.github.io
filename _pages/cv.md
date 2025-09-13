@@ -13,10 +13,10 @@ header:
 
 
 <p style="text-align:center;">
-  <a href="{{ '/files/Marco_Acosta_CV.pdf' | relative_url }}" target="_blank">📄 Download CV (PDF)</a>
+  <a href="{{ '/files/CV_MAAC.pdf' | relative_url }}" target="_blank">📄 Download CV (PDF)</a>
 </p>
 
-<embed src="{{ '/files/Marco_Acosta_CV.pdf' | relative_url }}" 
+<embed src="{{ '/files/CV_MAAC.pdf' | relative_url }}" 
        type="application/pdf" 
        width="100%" 
        height="800px" />
