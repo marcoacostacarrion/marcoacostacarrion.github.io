@@ -10,7 +10,7 @@ header:
 
 
 <!-- Headshot floated to the right, aligned with your intro -->
-<img src="{{ '/images/ProfilePicture2.jpg' | relative_url }}"
+<img src="{{ '/images/Profile_Banxico.jpg' | relative_url }}"
      alt="Marco A. Acosta headshot"
      style="float:right; width:240px; max-width:35%; margin: 0 0 1rem 1.5rem; border-radius: 12px; box-shadow: 0 8px 24px rgba(0,0,0,.15);"
      loading="lazy">
