@@ -180,7 +180,6 @@ kramdown:
 collections:
   teaching:
     output: true
-     show_date: false
     permalink: /:collection/:path/
   publications:
     output: true
