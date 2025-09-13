@@ -16,8 +16,7 @@ header:
   <a href="{{ '/files/Marco_Acosta_CV.pdf' | relative_url }}" target="_blank">📄 Download CV (PDF)</a>
 </p>
 
-<iframe src="{{ '/files/Marco_Acosta_CV.pdf' | relative_url }}" 
-        width="100%" 
-        height="800px" 
-        style="border:none;">
-</iframe>
+<embed src="{{ '/files/Marco_Acosta_CV.pdf' | relative_url }}" 
+       type="application/pdf" 
+       width="100%" 
+       height="800px" />
