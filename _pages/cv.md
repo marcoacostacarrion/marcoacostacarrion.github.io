@@ -11,3 +11,7 @@ header:
 
 {% include base_path %}
 
+<embed src="{{ '/files/CV_MAAC.pdf' | relative_url }}" 
+       type="application/pdf" 
+       width="100%" 
+       height="800px" />
