@@ -4,7 +4,9 @@ title: "Fundamentals of Economics for Business I"
 author_profile: true
 collection: teaching
 excerpt: "The aim of this course is to introduce students to the fundamental concepts, models, and methods of economics, and to apply them to understand markets, decision-making, and the role of government in addressing market outcomes"
-date: false
+date: 2025-01-01
+last_modified_at: 2025-01-01
+show_date: false
 type: "Undergraduate course"
 permalink: /teaching/2023_spring
 venue: "Indiana University, Department of Economics, Fall 2021, Spring 2022, Fall 2022, Spring 2023, Summer 2023 (online), Fall 2023, and Spring 2024"
