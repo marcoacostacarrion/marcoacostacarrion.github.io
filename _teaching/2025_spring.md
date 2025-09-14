@@ -6,7 +6,7 @@ collection: teaching
 type: "Undergraduate course"
 excerpt: "The aim of this course is to analyze firm behavior in imperfectly competitive markets, using game theory to understand strategies, market outcomes, and public policy responses."
 permalink: /teaching/2025_spring
-venue: "Indiana University, Department of Economics"
+venue: "Indiana University, Department of Economics, Spring 2025"
 date: 2025/01/01
 location: "Bloomington, IN"
 header:
