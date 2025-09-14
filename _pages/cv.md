@@ -17,6 +17,9 @@ header:
 </p>
 
 
-<iframe src="https://docs.google.com/gview?url={{ site.url }}/files/CV_MAAC.pdf&embedded=true"
-        style="width:100%; height:800px;" frameborder="0">
+
+<iframe src="{{ '/files/CV_MAAC.pdf' | relative_url }}" 
+        width="100%" 
+        height="800px" 
+        style="border:none;">
 </iframe>
