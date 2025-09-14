@@ -1,6 +1,6 @@
 ---
 layout: splash
-title: "Economics of Industry"
+title: "Economics of Industry (E-385)"
 author_profile: true
 collection: teaching
 type: "Undergraduate course"
