@@ -17,7 +17,6 @@ header:
 </p>
 
 
-<object data="{{ '/files/CV_MAAC.pdf' | relative_url }}" type="application/pdf" width="100%" height="800px">
-  <p>It looks like your browser can’t display PDFs inline. 
-     <a href="{{ '/files/CV_MAAC.pdf' | relative_url }}" target="_blank">Download CV here</a>.</p>
-</object>
+<iframe src="https://docs.google.com/gview?url={{ site.url }}/files/CV_MAAC.pdf&embedded=true"
+        style="width:100%; height:800px;" frameborder="0">
+</iframe>
