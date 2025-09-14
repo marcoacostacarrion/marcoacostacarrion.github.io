@@ -16,9 +16,8 @@ header:
   <a href="{{ '/files/CV_MAAC.pdf' | relative_url }}" target="_blank">📄 Download CV (PDF)</a>
 </p>
 
-<iframe src="{{ '/files/CV_MAAC.pdf' | relative_url }}" 
-        width="100%" 
-        height="800px" 
-        style="border:none;">
-</iframe>
 
+<object data="{{ '/files/CV_MAAC.pdf' | relative_url }}" type="application/pdf" width="100%" height="800px">
+  <p>It looks like your browser can’t display PDFs inline. 
+     <a href="{{ '/files/CV_MAAC.pdf' | relative_url }}" target="_blank">Download CV here</a>.</p>
+</object>
