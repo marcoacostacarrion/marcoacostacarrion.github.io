@@ -2,7 +2,7 @@
 title: "From Persistence to Performance: The Effects of Elite High Schools on Retaking and Testing"
 collection: publications
 type: JMP (forthcoming)
-# link: /files/JMP_draft.pdf    
+link: /files/JMP_draft.pdf    
 # venue: "Job Market Paper • Working Paper"
 selected: true
 tags: [Job Market Paper, Education, RDD, Mexico]
