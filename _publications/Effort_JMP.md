@@ -1,5 +1,5 @@
 ---
-title: "From Persistence to Performance: The Effects of Elite High Schools on Retaking and Testing (forthcoming)"
+title: "Quantifying the Perceived Value of Elite Schooling: Effort, Selection, and Investment (forthcoming)"
 collection: publications
 type: JMP
 link: /files/JMP.pdf    
