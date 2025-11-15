@@ -1,5 +1,5 @@
 ---
-title: "Quantifying the Perceived Value of Elite Schooling: Effort, Selection, and Investment (forthcoming)"
+title: "Quantifying the Perceived Value of Elite Schooling"
 collection: publications
 type: JMP
 link: /files/JMP.pdf    
